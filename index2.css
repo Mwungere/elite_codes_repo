@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,600;0,700;1,400&family=Noto+Serif:ital@1&family=Pacifico&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.title{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800px;
+    z-index: 999px;
+font-family: 'Pacifico', cursive;
+
+
+}
+.par{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800px;
+    font-family: 'Pacifico', cursive;
+
+
+}
+.main-area{
+    background: linear-gradient(to left, #ff9966, #ff5e62);
+    width: 100%;
+    height: 350vh;
+
+}
+.p{
+    position: absolute;
+    left: -10%;
+     top: 100%; 
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800px;
+    font-family: 'Pacifico', cursive;
+    animation: drive 3s forwards;
+}
+@keyframes drive {
+    from{transform: translateX(0%)}
+    to{transform: translateX(320%)}
+    
+}
+.logo{
+    width: 80px;
+    margin-top: -1%;
+    margin-left: 2%;
+    border-radius: 60%;
+    transform: scale(0.3);
+}
+.log{
+    width: -50%;
+    left: 5%;
+    top: 0.5%;
+    /* line-height: -0.6%; */
+    position: absolute;
+    color: #18ecf3;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.p1{    
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800px;
+    font-family: 'Pacifico', cursive;
+    top: 50%;
+    right: 40%;
+
+}
+
+.p2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800px; 
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    top: 180%;
+    left: -10%;
+    animation: animals 5s 2s forwards infinite;
+}
+@keyframes animals{
+    from{transform: translateX(0%)}
+    to{transform: translateX(270%)}
+    
+}
+.p3{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800px; 
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    top: 250%;
+    left: -25%;
+    animation: meuseums 7s 4s forwards;
+}
+@keyframes meuseums {
+    from{transform: translateX(0%)}
+    to{transform: translateX(520%)}
+    
+}
+a{
+    text-decoration: none;
+}
+.button{
+ 
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    top: 270%;
+    right: 20%;
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 1s;
+}
+.button:hover{
+    background-color: #0db9f3;
+    transform: rotate(360deg);
+}
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250%;
+    overflow: hidden;
+
+}
+@keyframes circles {
+    0%{
+        opacity: 1;
+        border-radius: 0;
+        transform: translateY(0) rotate(0deg);
+
+    }
+    30%{
+        opacity: 0.5;
+        border-radius: 30%;
+    }
+    60%{
+        opacity: 0.6;
+        border-radius: 40%;
+    }
+    80%{
+        opacity: 0.8;
+        border-radius: 45%;
+    }
+    100%{
+        opacity: 0;
+        border-radius: 50%;
+        transform: translateY(5000px) rotate(720deg);
+
+    }
+    
+}
+.div{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    /* bottom: -150px; */
+     top: -150px; 
+    animation: circles 25s linear infinite;
+
+} 
+.circles div:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+
+}
+.circles div:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+.circles div:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+    
+} 
+.circles div:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    
+}
+.circles div:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+    
+}
+.circles div:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+    
+}
+.circles div:nth-child(7){
+    
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+.circles div:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+
+}
+.circles div:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+.circles div:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+    
+}
+
+.slides{
+    width: 50%;
+    height: 1000px;
+    animation: animate 45s ease-in-out infinite;
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+@keyframes animate{
+    0%,100%{
+        background-image: url(./images/London\,\ England\ Travel\ Poster\,\ United\ Kingdom.jpg);
+    }
+    30%{
+        background-image: url(./images/God\,\ gold\ and\ lagoons_\ a\ snapshot\ of\ Kerala\,\ India\ –\ in\ pictures.jpg);
+    }
+    60%{
+        background-image: url(./images/Surreal-Digital-Art-Photography-Photo-Manipulation-Robert-Jahns.jpg);
+    }
+    75%{
+        background-image: url(./images/COCO\ RESORTS_\ SECLUDED\ ISLAND\ IN\ THE\ MALDIVES.jpg);
+
+    }
+    90%{
+        background-image: url(./images/Karnataka\ Tourism\ \(1\).png);
+    }
+   
+
+}
+.slide{
+    width: 50%;
+    height: 900px;
+    position: absolute;
+    top: 60%;
+    right: 100px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    animation: slides 45s ease-in-out infinite;
+
+}
+@keyframes slides{
+    0%,100%{
+        background-image: url(./images/a3ebc3cd-afeb-4403-9631-c3ce3f4ee6c5.jpg)
+    }
+    30%{
+        background-image: url(./images/Animals\ Wallpaper_\ White\ Tiger.jpg);
+    }
+    60%{
+        background-image: url(./images/Beautiful\ image\ of\ a\ Jaquar\ realxing\ by\ the\ water_.jpg);
+    }
+    75%{
+        background-image: url(./images/99206b05-d009-4cbb-af55-8d74ff29a950.jpg);
+
+    }
+    99%{
+        background-image: url(./images/Voyage\ _\ Paysage\ _\ Outdoor\ _\ Destination.jpg);
+    }
+}
+.slid{
+    width: 50%;
+    height: 900px;
+    position: absolute;
+    top: 210%;
+    left: 100px;
+    background-size: cover;
+    border-radius: 20px;
+    /* margin-bottom: 20px; */
+    animation: slid 45s ease-in-out infinite;
+}
+@keyframes slid{
+    0%,100%{
+        background-image: url(./images/bournemouth\ _\ Science\ Museum\ Group\ Collection.png)
+    }
+    30%{
+        background-image: url(./images/skeletons.jpg);
+    }
+    60%{
+        background-image: url(./images/7\ Unique\ Museums\ To\ Visit\ In\ Lincoln\,\ Nebraska.jpg)
+    }
+    75%{
+        background-image: url(./images/France\ -\ Paris.jpg);
+
+    }
+    99%{
+        background-image: url(./images/Learning\ is\ fun\ for\ the\ whole\ family\ at\ these\ San\ Diego\ attractions\ \(1\).jpg);
+    }
+}
+.footer{
+    position: absolute;
+    top: 300%;
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    border-radius: 1%;
+}
+.foot{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    left: 45%;
+    font-family: 'Pacifico', cursive;
+}
+.more{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 10%;
+    font-size: 20px;
+
+}
+.more h3{
+    margin-bottom: 5%;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+}
+.more p{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.more h3,.parg:hover{
+    color: #ff5e62;
+    
+}
