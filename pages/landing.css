@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,600;0,700;1,400&family=Noto+Serif:ital@1&family=Pacifico&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;   
+}
+.main{
+    max-width: 100vw; 
+    height: 250vh;
+}
+.nav{
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 1%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    background-color: hsl(0, 0%, 100%);
+    /* z-index: -90px; */
+    position: fixed;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    margin-left: 355%;
+   
+}
+.navbar p{
+    margin-left: 15%;
+    font-family: 'Pacifico', cursive;
+    color: hsl(233, 8%, 62%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.navbar p:hover{
+    color: #12fa4c;
+}
+.invite{
+    position: absolute;
+    margin-left: 870%;
+    padding: 10px;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    transition: 1s ease-in-out;
+}
+.invite:hover{
+    background-color: #0db9f3;
+    transform: rotate(360deg);
+}
+.content{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    margin-top: 5%;
+    background-color: hsl(0, 0%, 98%);
+    overflow: hidden;
+}
+.cont{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;   
+ 
+}
+.cont h3, .desc h3{
+    line-height: 2em;
+    color: #165266;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+.desc h3{
+    color: #687a80;
+}
+.cont p, .desc p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(233, 8%, 62%);
+    margin-top: 5%;
+    line-height: 1.5em;
+    
+}   
+.invite2{
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 10px;
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    transition: 1s;
+}
+.invite2:hover{
+    cursor: pointer;
+}
+.pics{
+    position: absolute;
+    height: 1300px;
+    background-repeat: no-repeat;
+    width: 800px;
+   background-image: url("../images/bg-intro-desktop.svg");
+   left: 55.91%; 
+   margin-top: -14%;
+   overflow: hidden;
+  
+}
+.pics img{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.description{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    margin-top: 48%;
+    background-color: hsl(220, 16%, 96%);
+}
+.desc{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.options{
+    display: flex;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+.description img{
+    margin-bottom: 10%;
+}
+.description h4{
+    margin-bottom: 6%;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color: #687a80;
+}
+.description p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(233, 8%, 62%);
+    line-height: 1.5em;
+}
+.div{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    margin-top: 83.7%;
+    background-color: hsl(0, 0%, 98%);
+}
+.div h2{
+    margin-left: 14%;
+    margin-top: 4%;
+    margin-bottom: 1.5%;
+    font-family: 'Pacifico', cursive;
+    color: rgb(54, 41, 126);
+
+}
+.divs h3{
+    margin-bottom: 3%;
+    color: #678792;
+    transition: 0.3s ease-in-out;
+}
+.divs h3:hover{
+    color: #12fa4c;
+    cursor: pointer;
+}
+.divs p{
+    line-height: 1.5em;
+    color: hsl(233, 8%, 62%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.divs{
+    width: 80%;
+    margin-left: 8.3%;
+    margin-right: 10%;
+    justify-content: space-between;
+    position: absolute;
+    display: flex;
+}
+.divs div{
+    width: 100%;
+    padding-left: 90px;
+}
+figcaption{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 3%;
+}
+.div2 figcaption,.div3 figcaption, .div4 figcaption{
+    margin-top: 20px;
+}
+.divs img{
+    width: 100%;
+    height: 50%;
+}
+.footer{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    background-color: hsl(233, 26%, 24%);
+    margin-top: 120%;
+}
+.logo{
+    margin-top: 5%;
+    margin-left: 11%;
+}
+.info{
+    color: #fff;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 5%;
+    line-height: 1.8em;
+}
+.use{
+    color: #fff;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 5%;
+    line-height: 1.8em;
+}
+.foot{
+    color: #fff;
+    margin-left: 20%;
+    font-size: 20px;
+    margin-top: 5%;
+    line-height: 1.8em;
+}
+.foot button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    cursor: pointer;
+
+}
+.logo svg{
+    margin-bottom: 40%;
+}
+.logo img{
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+.logo img:hover{
+    background-color: #12fa4c;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+.footer p:hover{
+    color: #12fa4c;
+    cursor: pointer;
+
+}
