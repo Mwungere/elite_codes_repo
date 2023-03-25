@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.subcontainer p:nth-of-type(2){
+    color: green;
+
+    
+}
+.container>h1:nth-of-type(4)+p{
+    color: aqua;
+}

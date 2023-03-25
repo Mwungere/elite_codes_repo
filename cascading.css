@@ -1,0 +1,15 @@
+body{
+    /* background-image: url(https://th.bing.com/th?id=OIP.cIry5buS2wGgH390w6QIugHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 60%; */
+    background: #ccc url(https://th.bing.com/th?id=OIP.cIry5buS2wGgH390w6QIugHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2) repeat fixed top center/10%;
+
+}
+h1{
+    background-color: aqua;
+    color: white;
+    text-transform: uppercase;
+    
+}

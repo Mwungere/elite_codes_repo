@@ -1,0 +1,52 @@
+.container{
+    width: 80%;
+    /* background-color: rgb(182, 94, 94); */
+    overflow: hidden;
+    margin: 0px auto;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+    /* background: linear-gradient(to left, rgb(95, 201, 95), rgb(83, 173, 146)); */
+}
+table, th, td {
+    border-bottom: 1px solid black;
+ 
+}
+th{
+    background-color: rgb(0, 255, 157);
+    color: white;
+}
+
+
+th,td 
+{
+    font-size: 1.25em;
+  padding: 3px;
+  white-space: nowrap;
+  height: 40px;
+  text-align: center;
+  vertical-align: center;
+}
+tbody>tr:nth-child(odd){
+    /* background-color: rgb(251, 254, 255); */
+}
+td{
+    color: black;
+}
+.first{
+    background-color: aqua;
+}
+.last{
+    background-color: rgb(0, 255, 179);
+}
+.second{
+    background-color: rgb(22, 206, 252);
+}
+
+tr:hover{
+    background-color: crimson;
+}
+
+
