@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "My first Blog",
+      "body": "Why do we use it?\nIt is a long established fact that a rader will be  distraction",
+      "author": "Elite",
+      "id": 1
+    },
+    {
+      "title": "Opening Party",
+      "body": "Why do we use it?\nIt is a long established fact that a rader will be  distraction",
+      "author": "Serene",
+      "id": 2
+    },
+    {
+      "title": "Our story",
+      "body": "Elite and the family",
+      "author": "Serene",
+      "id": 3
+    },
+    {
+      "title": "My day",
+      "body": "It was an evening when one person approached the gate and told me to call my dad in order to tell him the prize that I had won",
+      "author": "Elza",
+      "id": 10
+    }
+  ]
+}
